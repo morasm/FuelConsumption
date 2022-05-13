@@ -8,5 +8,12 @@ namespace FuelConsumption.Models
 {
     class Refuelling
     {
+        public float Amount { get; }
+
+        public float Cost { get; }
+
+        public float Milleage { get; }
+
+        public DateTime DateRefuel { get; }
     }
 }

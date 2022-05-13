@@ -8,5 +8,17 @@ namespace FuelConsumption.Models
 {
     class Car
     {
+        public string CarRegisterNumber { get; }
+
+        public string CarMake { get; }
+
+        public string CarModel { get; }
+
+        public Car(string carRegisterNumber, string carMake, string carModel)
+        {
+            CarRegisterNumber = carRegisterNumber;
+            CarMake = carMake;
+            CarModel = carModel;
+        }
     }
 }
