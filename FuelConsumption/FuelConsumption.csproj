@@ -64,6 +64,9 @@
     <Compile Include="Views\Config.xaml.cs">
       <DependentUpon>Config.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\RefuellingListingView.xaml.cs">
+      <DependentUpon>RefuellingListingView.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -85,6 +88,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Config.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RefuellingListingView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
