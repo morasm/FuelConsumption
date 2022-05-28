@@ -94,7 +94,7 @@
 
         <StackPanel Orientation="Horizontal" Grid.Row="7">
             <Button Content="Submit"/>
-            <Button Content="Cancel"/>
+            <Button Content="Cancel" Margin="10 0 0 0"/>
         </StackPanel>
     </Grid>
 </UserControl>

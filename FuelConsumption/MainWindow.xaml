@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:FuelConsumption"
         xmlns:views="clr-namespace:FuelConsumption.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Fuel Consumption Calculator" Height="450" Width="800"
+        FontSize="14">
+    
+    <Grid Margin="20, 10" MaxWidth="800">
         <views:AddRefuelling/>
     </Grid>
 </Window>
